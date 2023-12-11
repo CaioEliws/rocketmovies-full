@@ -49,6 +49,8 @@ export const Paragraph = styled.p`
 
     border: none;
     background: transparent;
+
+    margin-left: 10px;
     }
 `;
 

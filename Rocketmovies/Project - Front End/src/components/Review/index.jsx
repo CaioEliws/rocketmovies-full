@@ -46,6 +46,7 @@ export function Review({ movie }) {
                 {movie.description.length > 50
                 ? `${movie.description.slice(0, 350)}... `
                 : movie.description}
+
                 <button to="/details/1" onClick={() => handleDetails(movie.id)}>
                 <strong>Ler Mais</strong>
                 </button>

@@ -6,7 +6,7 @@ import { useAuth } from '../../hooks/auth'
 import { Input } from '../../components/Input'
 
 import { api } from "../../services/api";
-import avatarPlaceholder from '../../assets/profile.png'
+import avatarPlaceholder from "../../assets/profile.png"
 
 export function Header({ setSearch }){
     

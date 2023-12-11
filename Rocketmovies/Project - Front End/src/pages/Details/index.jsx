@@ -15,6 +15,8 @@ import { api } from '../../services/api';
 import { IoIosStarOutline, IoMdStar } from 'react-icons/io';
 import { useAuth } from '../../hooks/auth';
 
+import avatarPlaceholder from "../../assets/profile.png"
+
 
 export function Details() {
     const [data, setData] = useState(null);
